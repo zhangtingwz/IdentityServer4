@@ -10,6 +10,14 @@ repo in the quickstarts folder.
 
 Basic setup
 ^^^^^^^^^^^
+
+dotnet new -i identityserver4.templates
+dotnet new is4empty -n IdentityServer
+
+dotnet new sln -n QuickStart
+dotnet sln QuickStart.sln add .\IdentityServer\IdentityServer.csproj
+
+
 The screen shots show Visual Studio - but this is not a requirement.
 
 **Creating the quickstart IdentityServer**
