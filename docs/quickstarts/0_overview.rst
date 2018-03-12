@@ -1,19 +1,8 @@
 Setup and Overview
 ==================
 
-There are two fundamental ways to start a new IdentityServer project:
-
-* start from scratch
-* start with the ASP.NET Identity template in Visual Studio
-
-If you start from scratch, we provide a couple of helpers and in-memory stores, so 
-you don't have to worry about persistence right from the start.
-
-If you start with ASP.NET Identity, we provide an easy way to integrate with that as well.
-
 The quickstarts provide step by step instructions for various common IdentityServer scenarios.
-They start with the absolute basics and become more complex - 
-it is recommended you do them in order.
+They start pretty basic and become more complex - it is recommended you do them in order.
 
 Every quickstart has a reference solution - you can find the code in the 
 `IdentityServer4.Samples <https://github.com/IdentityServer/IdentityServer4.Samples>`_
